@@ -140,13 +140,25 @@ body {
     background-position: center;
 }
 
-.t1,
-.t2,
-.t3,
-.t4,
+.t1 {
+    background-size: auto 100%;
+    background-image: url(./image/1.png);
+}
+.t2 {
+    background-size: auto 100%;
+    background-image: url(./image/2.png);
+}
+.t3 {
+    background-size: auto 100%;
+    background-image: url(./image/3.png);
+}
+.t4 {
+    background-size: auto 100%;
+    background-image: url(./image/4.png);
+}
 .t5 {
     background-size: auto 100%;
-    background-image: url(./image/ClickBefore.png);
+    background-image: url(./image/5.png);
 }
 
 .tt1,
@@ -155,7 +167,7 @@ body {
 .tt4,
 .tt5 {
     background-size: auto 86%;
-    background-image: url(./image/AfterClicking.png);
+    background-image: url(./image/0.png);
 }
 
 .bl {
