@@ -176,7 +176,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         } else if (mode === MODE_ENDLESS) {
             GameTimeLayer.innerHTML = `CPS:${getCPS().toFixed(2)}`;
         } else {
-            GameTimeLayer.innerHTML = `SCORE:${_gameScore}`;
+            GameTimeLayer.innerHTML = `分数:${_gameScore}`;
         }
     }
 
